@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var product_1 = require("./product");
+exports.ProductTypeDefs = product_1.ProductTypeDefs;
+var categories_1 = require("./categories");
+exports.CategoriesTypeDefs = categories_1.CategoriesTypeDefs;
+var orders_1 = require("./orders");
+exports.OrdersTypeDefs = orders_1.OrdersTypeDefs;
+var customers_1 = require("./customers");
+exports.CustomersTypeDefs = customers_1.CustomersTypeDefs;
+var carts_1 = require("./carts");
+exports.CartTypeDefs = carts_1.CartTypeDefs;

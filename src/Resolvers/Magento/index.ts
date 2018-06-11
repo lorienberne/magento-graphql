@@ -1,0 +1,5 @@
+export { ProductResolvers } from "./product"
+export { CategoriesResolvers } from "./categories"
+export { OrdersResolvers } from "./orders"
+export { CustomersResolvers } from "./customers"
+export { CartsResolvers } from "./carts"

@@ -1,0 +1,3 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ProductTypeDefs = "\n    type Images {\n        image: String\n        small: String\n        thumbnail: String\n    }\n\n    type Descriptions {\n        short: String\n        full: String\n    }\n\n    type Product {\n        id: String,\n        sku: String,\n        category: String,\n        name: String,\n        descriptions: Descriptions,\n        price: Float,\n        images: Images,\n        stock: Int\n    }\n\n    type Query {\n        productsByCategory(category: String!) : [Product]\n        productBySku(sku: String!): Product\n    }\n";

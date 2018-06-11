@@ -1,0 +1,5 @@
+export { ProductTypeDefs } from "./product"
+export { CategoriesTypeDefs } from "./categories"
+export { OrdersTypeDefs } from "./orders"
+export { CustomersTypeDefs } from "./customers"
+export { CartTypeDefs } from "./carts"
